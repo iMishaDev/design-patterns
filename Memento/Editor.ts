@@ -85,7 +85,9 @@ export class Editor {
 
     restore(state){
         this.#editedAt = Date.now();
-        return this.#content = state.getContent();
+        this.#title = state.getTitle();
+        this.#content = state.getContent();
+        this.#author = state.getAuthor();
     }
 
     #contentIsValid(content){
