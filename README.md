@@ -1,6 +1,6 @@
 ## Learning Design Patterns Journey :
 ### Behavioral Design Patterns : 
-- [x] Momento 
+- [x] Memento 
 - [x] State 
 
 
