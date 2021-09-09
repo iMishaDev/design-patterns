@@ -2,6 +2,7 @@
 ### Behavioral Design Patterns : 
 - [x] Memento 
 - [x] State 
+- [x] Iterator 
 
 
 ### Structural Design Patterns : 
