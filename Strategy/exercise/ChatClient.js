@@ -16,13 +16,8 @@ export class ChatClient {
         __classPrivateFieldSet(this, _ChatClient_encryptionAlgorithm, encryptionAlgorithm, "f");
     }
     send(message) {
-        __classPrivateFieldGet(this, _ChatClient_encryptionAlgorithm, "f").encrypt(message);
-        // if ( this.#encryptionAlgorith == "DES")
-        // else if ( this.#encryptionAlgorith == "AES")
-        //     System.out.println("Encrypting message using AES");
-        // else
-        //     throw new UnsupportedOperationException("Unsupported encryption algorithm");
-        console.log("Sending the encrypted message...");
+        let encryptedMessage = __classPrivateFieldGet(this, _ChatClient_encryptionAlgorithm, "f").encrypt(message);
+        console.log("Sending the encrypted message...", encryptedMessage);
     }
 }
 _ChatClient_encryptionAlgorithm = new WeakMap();

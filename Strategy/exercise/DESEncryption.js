@@ -1,5 +1,6 @@
 export class DESEncryption {
-    encrypt() {
+    encrypt(message) {
         console.log("Encrypting message using DES");
+        return 'encrypted message';
     }
 }

@@ -1,3 +1,3 @@
 export interface Encryption {
-    encrypt();
+    encrypt(message);
 }

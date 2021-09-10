@@ -3,6 +3,7 @@ import { ChatClient } from "./ChatClient.js";
 import { DESEncryption } from "./DESEncryption.js";
 
 let chatClient = new ChatClient(new DESEncryption());
+
 chatClient.send('hello')
 
 

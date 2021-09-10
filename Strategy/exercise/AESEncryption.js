@@ -1,5 +1,6 @@
 export class AESEncryption {
-    encrypt() {
+    encrypt(message) {
         console.log("Encrypting message using AES");
+        return 'encrypted message';
     }
 }
