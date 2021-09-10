@@ -3,6 +3,7 @@
 - [x] Memento 
 - [x] State 
 - [x] Iterator 
+- [x] Strategy 
 
 
 ### Structural Design Patterns : 
