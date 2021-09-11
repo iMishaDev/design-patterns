@@ -4,6 +4,7 @@
 - [x] State 
 - [x] Iterator 
 - [x] Strategy 
+- [x] Template 
 
 
 ### Structural Design Patterns : 
