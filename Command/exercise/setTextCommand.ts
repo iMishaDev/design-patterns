@@ -1,23 +1,21 @@
-import { UnDoableCommand } from "./UnDoableCommand.js";
+import { AbstractUnDoableCommand } from "./AbstractUnDoableCommand.js";
 
-export class setTextCommand implements UnDoableCommand {
-    #videoEditor;
-    #history;
+export class SetTextCommand extends AbstractUnDoableCommand {
     #text;
 
-    constructor(history, videoEditor){
-        this.#history = history;
-        this.#videoEditor = videoEditor;
+    constructor(text, history, videoEditor){
+        super(history, videoEditor);
+
+        this.#text = text;
+    }
+
+    protected doExecute() {
+        this.videoEditor.setText(this.#text);
     }
 
 
     unExecute() {
-        this.#videoEditor.removeText();
-    }
-
-
-    execute() {
-        this.#videoEditor.setText(this.#text);
+        this.videoEditor.removeText();
     }
 
 }

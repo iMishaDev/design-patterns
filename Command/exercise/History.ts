@@ -12,4 +12,8 @@ export class History {
     pop(){
         return this.#commands.pop();
     }
+
+    size(){
+        return this.#commands.length
+    }
 }

@@ -2,10 +2,6 @@ export class VideoEditor {
     #contrast = 0.5;
     #text;
 
-    constructor(){
-
-    }
-    
     setText(text) {
         this.#text = text;
     }
@@ -14,13 +10,14 @@ export class VideoEditor {
         this.#text = "";
     }
 
+    setContrast(contrast) {
+        this.#contrast = contrast;
+    }
+    
     getContrast() {
         return this.#contrast;
     }
 
-    setContrast(contrast) {
-        this.#contrast = contrast;
-    }
 
     details() {
         return {
