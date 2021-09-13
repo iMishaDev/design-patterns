@@ -5,7 +5,7 @@
 - [x] Iterator 
 - [x] Strategy 
 - [x] Template 
-
+- [x] Command 
 
 ### Structural Design Patterns : 
 
