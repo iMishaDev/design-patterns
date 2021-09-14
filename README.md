@@ -6,6 +6,7 @@
 - [x] Strategy 
 - [x] Template 
 - [x] Command 
+- [x] Observer 
 
 ### Structural Design Patterns : 
 
