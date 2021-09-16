@@ -5,6 +5,7 @@ export class Button extends UIControl {
 
     setIsEnabled(isEnabled){
         this.#isEnabled = isEnabled;
+        this.notifyEventHandlers();
     }
 
     getIsEnabled(){

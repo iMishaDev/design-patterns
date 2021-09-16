@@ -5,6 +5,7 @@ export class TextBox extends UIControl {
 
     setContent(content){
         this.#content = content;
+        this.notifyEventHandlers();
     }
 
     getContent(){
