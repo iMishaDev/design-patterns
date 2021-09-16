@@ -7,6 +7,7 @@
 - [x] Template 
 - [x] Command 
 - [x] Observer 
+- [x] Mediator 
 
 ### Structural Design Patterns : 
 
