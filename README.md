@@ -8,6 +8,7 @@
 - [x] Command 
 - [x] Observer 
 - [x] Mediator 
+- [x] Chain of Responsibility 
 
 ### Structural Design Patterns : 
 
