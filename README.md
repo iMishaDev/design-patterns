@@ -9,7 +9,7 @@
 - [x] Observer 
 - [x] Mediator 
 - [x] Chain of Responsibility 
-
+- [x] Visitor
 ### Structural Design Patterns : 
 
 ### Creational Design Patterns : 
